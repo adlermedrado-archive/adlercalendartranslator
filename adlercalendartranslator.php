@@ -35,7 +35,7 @@
  * @param array $params
  * @return string
  */
-function getDateJewishCalendar( array $params)
+function getDateJewishCalendar(array $params)
 {
 
     $gregorianDate = date('d/m/Y', $params['gregorianDate']);
